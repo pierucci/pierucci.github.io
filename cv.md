@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Antoine Filipović-Pierucci
+title: AFP - CV
 ---
 Je suis médecin de santé publique dans [l'unité](http://www.urc-eco.fr/) de
 recherche clinique en économie de la santé d'Île-de-France du
