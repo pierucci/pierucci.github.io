@@ -13,9 +13,9 @@ d'analyse quantitatives (épidémiologiques, médico-économiques, parcours de s
 Je m'intéresse en particulier à l'analyse des bases de 
 données médico-administratives pour répondre à des questions de Santé publique.
 
-Ce site contient [mon CV](/cv) et les
-[outils informatiques](/tools) auxquels je contribue. Mes publications 
-sont sur [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ). 
+Ce site contient [mon CV](/cv), les
+[outils informatiques](/tools) auxquels je contribue et 
+[mes publications](/papers). 
 Je travaille à [l'unité](http://www.urc-eco.fr) de recherche clinique en économie de la 
 santé d'Île-de-France.
 
