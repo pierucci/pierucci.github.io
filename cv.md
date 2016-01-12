@@ -35,3 +35,7 @@ Je parle et écrit l'anglais couramment. J'utilise énormément [R](https://cran
 et j'ai développé plusieurs packages dans ce langage. Je peux aussi utiliser [SAS](https://www.sas.com).
 J'ai les habilitations et les compétences nécessaires pour travailler sur le
 [Sniiram](http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/sniiram/finalites-du-sniiram.php).
+
+# Publications
+
+Disponibles sur [cette page](/papers).
