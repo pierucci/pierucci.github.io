@@ -19,7 +19,7 @@ Ce site contient [mon CV](/cv), les
 Je travaille à [l'unité](http://www.urc-eco.fr) de recherche clinique en économie de la 
 santé d'Île-de-France.
 
-## Public Health Doctor
+## Public Health Physician
 
 I am an MD with a specialisation in public health. I work on quantitative study and
 evaluation of health systems (epidemiology, health economic evaluation, clinical pathways...).
