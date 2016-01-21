@@ -11,7 +11,7 @@ Disponibles sur [Google Scholar](https://scholar.google.com/citations?user=F-6yC
 
 Filipovic-Pierucci A, Cuerq A, Samson S, Tala S, Fagot- Campagna A, Tuppin P.  
 *Consommation de soins et mortalité des bénéficiaires de la CMU-C dans les départements français d’outre-mer en 2012, et comparaisons avec la France métropolitaine.*  
-Bull Epidémiol Hebd. 2015;(38-39):733-41. http://www.invs.sante.fr/beh/2015/38-39/2015_38-39_4.html
+[Bull Epidémiol Hebd. 2015;(38-39):733-41](http://www.invs.sante.fr/beh/2015/38-39/2015_38-39_4.html).
 
 # Posters
 
