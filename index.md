@@ -16,7 +16,7 @@ données médico-administratives pour répondre à des questions de Santé publi
 Ce site contient [mon CV](/cv), les [outils informatiques](/tools) auxquels je contribue et [mes publications](/papers). 
 Je travaille à [l'unité](http://www.urc-eco.fr) de recherche clinique en économie de la santé d'Île-de-France.
 
-## Public Health Physician
+## Public Health Medical Doctor
 
 I am an MD with a specialization in public health. I work on healthcare systems study and
 evaluation by using quantitative methods (epidemiology, health economic evaluation, care pathways analysis, spatial analysis...).
