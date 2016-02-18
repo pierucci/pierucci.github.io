@@ -15,15 +15,15 @@ Filipovic-Pierucci A, Cuerq A, Samson S, Tala S, Fagot- Campagna A, Tuppin P.
 
 # Posters
 
-Filipovic Pierucci Antoine, Tuppin Philippe, Cuerq Anne, Samson Solene, Denis Pierre, Rigault Alexandre, Riviere Sebastien, Pestel Laurence, Tala Stephane, Fagot-campagna Anne,  
+Filipovic Pierucci Antoine, Tuppin Philippe, Cuerq Anne, Samson Solene, Denis Pierre, Rigault Alexandre, Riviere Sebastien, Pestel Laurence, Tala Stephane, Fagot-campagna Anne.  
 *Comparaison des pathologies prises en charge dans les départements d'outremer avec la métropole*  
 Congrès SFSP 2015
 
-Filipovic Pierucci Antoine, Tuppin Philippe, Cuerq Anne, Samson Solene, Denis Pierre, Rigault Alexandre, Riviere Sebastien, Pestel Laurence, Tala Stephane, Fagot-campagna Anne,  
+Filipovic Pierucci Antoine, Tuppin Philippe, Cuerq Anne, Samson Solene, Denis Pierre, Rigault Alexandre, Riviere Sebastien, Pestel Laurence, Tala Stephane, Fagot-campagna Anne.  
 *Etat de santé des bénéficiaires de la couverture médicale universelle complémentaire en outremer*  
 Congrès SFSP 2015
 
-R. Mounier, C. Schimpf, B. Nebbad, A. Filipovic Pierucci, G. Dhonneur,  
+R. Mounier, C. Schimpf, B. Nebbad, A. Filipovic Pierucci, G. Dhonneur.  
 *Are carbapenems dispensable as empiric treatment? Outcome of non-carbapenem empiric therapy on septic shock caused by extended-spectrum beta-lactamaseproducing Enterobacteriaceae*  
 ECCMID 2015
 
