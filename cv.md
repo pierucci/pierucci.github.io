@@ -3,6 +3,8 @@ layout: default
 title: AFP - CV
 ---
 
+# Curriculum vitae
+
 Je suis médecin de santé publique dans [l'unité](http://www.urc-eco.fr/) de
 recherche clinique en économie de la santé d'Île-de-France du
 Professeur [Isabelle Durand-Zaleski](http://www.urc-eco.fr/Isabelle-DURAND-ZALESKI,6).
