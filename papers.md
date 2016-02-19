@@ -13,7 +13,7 @@ Filipovic-Pierucci A, Cuerq A, Samson S, Tala S, Fagot- Campagna A, Tuppin P.
 *Consommation de soins et mortalité des bénéficiaires de la CMU-C dans les départements français d’outre-mer en 2012, et comparaisons avec la France métropolitaine.*  
 [Bull Epidémiol Hebd. 2015;(38-39):733-41](http://www.invs.sante.fr/beh/2015/38-39/2015_38-39_4.html).
 
-# Présentation de congrès
+# Présentations de congrès
 
 A. Filipovic-Pierucci, P. Tuppin, A. Cuerq, S. Samson, P. Denis, A. Fagot-Campagna  
 *Repérage des pathologies prises en charge à partir du Sniiram : étude des départements d’outremer et comparaison à la métropole*  
