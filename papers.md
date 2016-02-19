@@ -15,24 +15,24 @@ Filipovic-Pierucci A, Cuerq A, Samson S, Tala S, Fagot- Campagna A, Tuppin P.
 
 # Présentation de congrès
 
-A. Filipovic-Pierucci, P. Tuppin, A. Cuerq, S. Samson, P. Denis, A. Fagot-Campagna
-*Repérage des pathologies prises en charge à partir du Sniiram : étude des départements d’outremer et comparaison à la métropole*
+A. Filipovic-Pierucci, P. Tuppin, A. Cuerq, S. Samson, P. Denis, A. Fagot-Campagna  
+*Repérage des pathologies prises en charge à partir du Sniiram : étude des départements d’outremer et comparaison à la métropole*  
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000821)
 
-A. Filipovic-Pierucci, J. Michon, E. Fournié, C. Le Bihan, P.-J. Bousquet
-*Analyse de l’activité de cancérologie pédiatrique : description de l’organisation dans les territoires et production de tableaux de bord*
+A. Filipovic-Pierucci, J. Michon, E. Fournié, C. Le Bihan, P.-J. Bousquet  
+*Analyse de l’activité de cancérologie pédiatrique : description de l’organisation dans les territoires et production de tableaux de   bord*
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000651)
 
-A. Filipovic-Pierucci, S. Samson, A. Fagot-Campagna
-*Mesure du recours aux soins pour troubles dépressifs à partir du Sniiram*
+A. Filipovic-Pierucci, S. Samson, A. Fagot-Campagna  
+*Mesure du recours aux soins pour troubles dépressifs à partir du Sniiram*  
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000559)
 
-A. Filipovic-Pierucci, F. Pessione, C. Deneux-Tharaux, d, G. Plu-Bureau, e, V. Olié
-*Maladie veineuse thrombo-embolique et stimulation ovarienne, 2012–2014, France*
+A. Filipovic-Pierucci, F. Pessione, C. Deneux-Tharaux, d, G. Plu-Bureau, e, V. Olié  
+*Maladie veineuse thrombo-embolique et stimulation ovarienne, 2012–2014, France*  
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000365)
 
-A. Marzouk, A. Filipovic-Pierucci, I. Durand-Zaleski, on behalf of the PREMUP study group
-*Coûts pré- et post-natal du retard de croissance intra-utérin en France: une étude nationale à partir du PMSI*
+A. Marzouk, A. Filipovic-Pierucci, I. Durand-Zaleski, on behalf of the PREMUP study group  
+*Coûts pré- et post-natal du retard de croissance intra-utérin en France: une étude nationale à partir du PMSI*  
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000250)
 
 # Posters
