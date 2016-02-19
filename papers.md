@@ -49,6 +49,6 @@ R. Mounier, C. Schimpf, B. Nebbad, A. Filipovic Pierucci, G. Dhonneur.
 **Are carbapenems dispensable as empiric treatment? Outcome of non-carbapenem empiric therapy on septic shock caused by extended-spectrum beta-lactamaseproducing Enterobacteriaceae**  
 ECCMID 2015
 
-# Autres
+# Thèse de médecine
 
 Ma [thèse](files/these_version_finale.pdf) de médecine, **Volumes d’activité et parcours de soin en cancérologie pédiatrique en France : analyse des données du programme de médicalisation des systèmes d’information**.
