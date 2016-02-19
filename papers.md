@@ -27,7 +27,7 @@ A. Filipovic-Pierucci, S. Samson, A. Fagot-Campagna
 *Mesure du recours aux soins pour troubles dépressifs à partir du Sniiram*  
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000559)
 
-A. Filipovic-Pierucci, F. Pessione, C. Deneux-Tharaux, d, G. Plu-Bureau, e, V. Olié  
+A. Filipovic-Pierucci, F. Pessione, C. Deneux-Tharaux, G. Plu-Bureau, V. Olié  
 *Maladie veineuse thrombo-embolique et stimulation ovarienne, 2012–2014, France*  
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000365)
 
