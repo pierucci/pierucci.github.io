@@ -3,6 +3,8 @@ layout: default
 title: AFP - Publications
 ---
 
+# Liste des publications
+
 ## Publications indexées
 
 Disponibles sur [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ).
