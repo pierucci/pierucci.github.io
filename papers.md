@@ -39,11 +39,11 @@ A. Marzouk, A. Filipovic-Pierucci, I. Durand-Zaleski, on behalf of the PREMUP st
 
 Filipovic Pierucci Antoine, Tuppin Philippe, Cuerq Anne, Samson Solene, Denis Pierre, Rigault Alexandre, Riviere Sebastien, Pestel Laurence, Tala Stephane, Fagot-campagna Anne.  
 **Comparaison des pathologies prises en charge dans les départements d'outremer avec la métropole**  
-Congrès SFSP 2015
+[Congrès SFSP 2015](http://www.sfsp.fr/manifestations/congres2015/donnees/articles_mc/fs_mc136_session34_art01.htm)
 
 Filipovic Pierucci Antoine, Tuppin Philippe, Cuerq Anne, Samson Solene, Denis Pierre, Rigault Alexandre, Riviere Sebastien, Pestel Laurence, Tala Stephane, Fagot-campagna Anne.  
 **Etat de santé des bénéficiaires de la couverture médicale universelle complémentaire en outremer**  
-Congrès SFSP 2015
+[Congrès SFSP 2015](http://www.sfsp.fr/manifestations/congres2015/donnees/articles_mc/fs_mc72_session45_art04.htm)
 
 R. Mounier, C. Schimpf, B. Nebbad, A. Filipovic Pierucci, G. Dhonneur.  
 **Are carbapenems dispensable as empiric treatment? Outcome of non-carbapenem empiric therapy on septic shock caused by extended-spectrum beta-lactamaseproducing Enterobacteriaceae**  
