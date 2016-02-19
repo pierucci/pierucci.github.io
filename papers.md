@@ -20,7 +20,7 @@ A. Filipovic-Pierucci, P. Tuppin, A. Cuerq, S. Samson, P. Denis, A. Fagot-Campag
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000821)
 
 A. Filipovic-Pierucci, J. Michon, E. Fournié, C. Le Bihan, P.-J. Bousquet  
-*Analyse de l’activité de cancérologie pédiatrique : description de l’organisation dans les territoires et production de tableaux de   bord*
+*Analyse de l’activité de cancérologie pédiatrique : description de l’organisation dans les territoires et production de tableaux de   bord*  
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000651)
 
 A. Filipovic-Pierucci, S. Samson, A. Fagot-Campagna  
