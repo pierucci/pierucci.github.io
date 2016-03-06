@@ -19,7 +19,7 @@ méthodologie et statistiques en recherche biomédicale du Professeur Bruno Fali
   
 ## Internat
 
-Mon internat de 4 ans s'est divisé en plusieurs phases :
+Mon internat de 4 (2011-2015) ans s'est divisé en plusieurs phases :
 
 Une première phase d'apprentissage des fondations : la méthodologie, 
 la recherche clinique et épidémiologique dans des unités de
@@ -38,6 +38,10 @@ Je parle et écrit l'anglais couramment. J'utilise énormément [R](https://cran
 et j'ai développé plusieurs packages dans ce langage. Je peux aussi utiliser [SAS](https://www.sas.com).
 J'ai les habilitations et les compétences nécessaires pour travailler sur le
 [Sniiram](http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/sniiram/finalites-du-sniiram.php).
+
+## Associatif
+
+Pendant toute la durée de mon internat j'ai participé à l'association des internes en santé publique d'Île-de-France, le [SPI](http://isp-paris.org/), en tant que secrétaire, vice-président en charge des stages, et président.
 
 ## Publications
 
