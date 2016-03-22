@@ -53,4 +53,4 @@ ECCMID 2015
 
 ## Thèse de médecine
 
-Ma [thèse](files/these_version_finale.pdf) de médecine, **Volumes d’activité et parcours de soin en cancérologie pédiatrique en France : analyse des données du programme de médicalisation des systèmes d’information**.
+Ma [thèse](https://hal.archives-ouvertes.fr/tel-01290402) de médecine, **Volumes d’activité et parcours de soin en cancérologie pédiatrique en France : analyse des données du programme de médicalisation des systèmes d’information**.
