@@ -45,4 +45,4 @@ Pendant toute la durée de mon internat j'ai participé à l'association des int
 
 ## Publications
 
-Disponibles sur [cette page](/papers).
+Disponibles sur [cette page](/fr/papers).
