@@ -83,9 +83,10 @@ ol, ul { width: 45%;
          -webkit-padding-start: 5%;
          -webkit-padding-end: 5%; }
 
-nav ol, nav ul { width: 87.5%;
-         -webkit-padding-start: 0%;
-         -webkit-padding-end: 0%; }
+nav ol, nav ul, footer ol, footer ul {
+  width: 87.5%;
+         -webkit-padding-start: 0;
+         -webkit-padding-end: 0; }
 
 li { padding: 0.5rem 0; }
 
@@ -97,7 +98,6 @@ nav ul li, footer ul li {
 footer {
     border-top: 1px solid #111;
     font-size: .8em;
-    width: 87.5%;
 }
 
 
