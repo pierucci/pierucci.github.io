@@ -3,25 +3,25 @@ layout: default
 title: AFP - Publications
 ---
 
-# Liste des publications
+# Publication list
 
-## Publications indexées
+## Indexed publication
 
-La liste est consultable sur [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ). Le texte complet de certains articles est disponible ici :
+A list is available on [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ). Full text is available for some of my paywalled articles:
 
 [Quantifiable evaluation of cerebellar signs in children](https://pierucci.github.io/fulltext/neuro)
 
-## Thèse de médecine
+## MD thesis
 
-Ma [thèse](https://hal.archives-ouvertes.fr/tel-01290402) de médecine, **Volumes d’activité et parcours de soin en cancérologie pédiatrique en France : analyse des données du programme de médicalisation des systèmes d’information**.
+My [MD thesis](https://hal.archives-ouvertes.fr/tel-01290402), **An analysis of paediatric cancer patient volume and pathway of care from French hospital claim databases**.
 
-## Publications non indexées
+## Non-indexed publications
 
 Filipovic-Pierucci A, Cuerq A, Samson S, Tala S, Fagot-Campagna A, Tuppin P.  
 **Consommation de soins et mortalité des bénéficiaires de la CMU-C dans les départements français d’outre-mer en 2012, et comparaisons avec la France métropolitaine.**  
 [Bull Epidémiol Hebd. 2015;(38-39):733-41](http://www.invs.sante.fr/beh/2015/38-39/2015_38-39_4.html).
 
-## Présentations de congrès
+## Congress presentations
 
 A. Filipovic-Pierucci, P. Tuppin, A. Cuerq, S. Samson, P. Denis, A. Fagot-Campagna  
 **Repérage des pathologies prises en charge à partir du Sniiram : étude des départements d’outremer et comparaison à la métropole**  

@@ -16,4 +16,4 @@ Ce site contient [mon CV](/fr/cv), les [outils informatiques](/fr/tools) auxquel
 
 I am an MD with a specialization in public health. I work on healthcare systems study and evaluation by using quantitative methods (epidemiology, health economic evaluation, care pathways analysis, spatial analysis...).
 
-You may find [my CV](/en/cv), a list of [software tools](/en/tools) I am working on, and [my publications](/en/papers). I work at [URC-Eco]((http://www.urc-eco.fr)) in Paris.
+You may find [my CV](/en/cv), a list of [software tools](/en/tools) I am working on, and [my publications](/en/papers). I work at [URC-Eco](http://www.urc-eco.fr) in Paris.
