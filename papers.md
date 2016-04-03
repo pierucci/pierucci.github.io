@@ -7,9 +7,7 @@ title: AFP - Publications
 
 ## Publications indexées
 
-Disponibles sur [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ). Certains textes complets sont disponibles en ligne :
-
-[Quantifiable evaluation of cerebellar signs in children.](/fulltext/neuro) 
+Disponibles sur [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ).
 
 ## Publications non indexées
 
