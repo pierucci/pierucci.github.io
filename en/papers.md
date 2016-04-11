@@ -43,6 +43,10 @@ A. Marzouk, A. Filipovic-Pierucci, I. Durand-Zaleski, on behalf of the PREMUP st
 *Coûts pré- et post-natal du retard de croissance intra-utérin en France: une étude nationale à partir du PMSI*. 
 [Congrès EMOIS 2016](http://www.sciencedirect.com/science/article/pii/S0398762016000250). Download presentation [here](/docs/pres_emois_rciu.pdf).
 
+## Other presentations
+
+Présentation à la réunion de la SFCE des 16, 17 et 18 mars 2016 : *Volumes d’activité et tableaux de bords en cancérologie pédiatrique en France*. Télécharger [ici](/docs/pres_sfce_20160317.pdf).
+
 ## Posters
 
 Filipovic Pierucci Antoine, Tuppin Philippe, Cuerq Anne, Samson Solene, Denis Pierre, Rigault Alexandre, Riviere Sebastien, Pestel Laurence, Tala Stephane, Fagot-campagna Anne. 
