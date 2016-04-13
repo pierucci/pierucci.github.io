@@ -15,6 +15,10 @@ A list is available on [Google Scholar](https://scholar.google.com/citations?use
 
 My [MD thesis](https://hal.archives-ouvertes.fr/tel-01290402), *An analysis of paediatric cancer patient volume and pathway of care from French hospital claim databases*.
 
+## Other reports
+
+[Estimation des coûts des séjours hospitaliers du point de vue de l'hôpital](https://pierucci.github.io/fulltext/encc), un document de travail sur la valorisation des séjours hospitaliers à partir des données médico-administratives.
+
 ## Non-indexed publications
 
 Filipovic-Pierucci A, Cuerq A, Samson S, Tala S, Fagot-Campagna A, Tuppin P. 
