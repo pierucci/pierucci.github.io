@@ -47,7 +47,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </div>
 
 
-<p><span class="newthought">Le but de cet article</span> est de discuter les possibilités d’estimer les coûts des séjours hospitaliers en MCO du point de l’hôpital, à partir des données médico-administratives. Au final, la formule suivante est proposée<label for="tufte-sn-1" class="margin-toggle sidenote-number">1</label><input type="checkbox" id="tufte-sn-1" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">1</span> Le reste de l’article présente la justification.</span> :</p>
+<p><span class="newthought">Le but de cet article</span> est de discuter les possibilités d’estimer les coûts des séjours hospitaliers en MCO du point de vue de l’hôpital, à partir des données médico-administratives. Au final, la formule suivante est proposée<label for="tufte-sn-1" class="margin-toggle sidenote-number">1</label><input type="checkbox" id="tufte-sn-1" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">1</span> Le reste de l’article présente la justification.</span> :</p>
 <p>Durée moyenne de séjour selon l’ENCC : <span class="math display">\[
 DMS^{*} = 
 \begin{cases}
@@ -100,7 +100,7 @@ D_{T} &amp; \text{Si } D_{T} \geq 1 \\
 1  &amp; \text{Si } D_{T} &lt; 1
 \end{cases}
 \]</span></p>
-<p>Durée de séjour en réanimation selon le PMSI<label for="tufte-sn-3" class="margin-toggle sidenote-number">3</label><input type="checkbox" id="tufte-sn-3" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">3</span> Ne pas oublier les durées en réanimations noéonatales et pédiatriques ici non plus.</span> : <span class="math inline">\(D_{REA}\)</span>.</p>
+<p>Durée de séjour en réanimation selon le PMSI<label for="tufte-sn-3" class="margin-toggle sidenote-number">3</label><input type="checkbox" id="tufte-sn-3" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">3</span> Ne pas oublier les durées en réanimations noéonatales et pédiatriques ici non plus.</span> : <span class="math inline">\(D_{REA}\)</span>, calculée à partir des suppléments.</p>
 <p>Durée de séjour hors-réanimation : <span class="math display">\[
 D_{HR} = D_{T}^{*} - D_{REA}
 \]</span></p>
