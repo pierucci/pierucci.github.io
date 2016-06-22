@@ -1,0 +1,390 @@
+<html><head>
+<title>Merci de patienter</title>
+
+</head>
+<body>
+  <script>
+    
+var isFirstPage  = true;
+var isFinalPage  = false;
+var patienceUrl  = 'http://pdftotext.com/download/vwlkrkudry56g18z/o_1alrs6vivi0r1sqjulauedj5ra/sts_20140005_0002_p000.txt?rnd=0.734125451729009&bcsi_scan_43167910db6ab4d9=cYZ++AmM9o53LdygLxRu8wuVPD8/AAAAwjC+Rw==:1';
+var downloadUrl  = '';
+var progressInfo = '29 KB';
+var timeElapsed  = 3;
+var refreshIn    = 6;
+// Copyright (c) 2004 Blue Coat Systems, Inc. All rights reserved worldwide.
+//
+//
+// The following predefined variables are available for the javascript to use:
+// 
+// NOTE: The Javascript must not try to modify any of the following variables.
+//       These variables are for READ-ONLY purposes.
+//
+// isFirstPage  - Boolean that is set to true for the first patience response page.
+// isFinalPage  - Boolean that is set to true for the final patience response page.
+// patienceUrl  - String that contains the URL to the patience page. It will be empty on the final page.
+// downloadUrl  - String that contains the URL to the download object. It will be empty in the intermediate pages.
+// progressInfo - String that contains the download progress information. It is not valid on final page.
+// timeElapsed  - int that contains the time elapsed in seconds.
+// refreshIn    - Refresh interval for subsequent patience page progress updates. Modifying this
+//                other than for the usage defined in the original Javascript can make the patience 
+//                page behavior erratic.
+//
+
+var windowName = '';
+var inPopUpWindow = false;
+var popHandle = null;
+var refreshTimerId = null;
+var refreshStopped = false;
+var popUpCheckTimerId = null;
+var isIE = false;
+var isIE6 = false;
+var isIE7 = false;
+var isIE8 = false;
+var autoPopUpWorked = false;
+
+// The following strings can be changed to fit your preferences.
+//
+var statusMessagePrefix1 = 'Download/scan progress: ';
+var statusMessagePrefix2 = 'Download/scan progress in child window: ';
+var statusMessage = progressInfo + '. Elapsed: ' + timeElapsed + ' sec. Reloading in ';
+
+var scanCompletedMessage1 = 'Scan completed'; 
+var scanCompletedMessage2 = 'Scan completed in child window'; 
+
+
+// Execution starts here:
+//
+
+detectBrowser();
+determineWindow();
+notifyAutoPopUpWorked();
+if (isFinalPage) {
+    updateStatus('.'); // The dot is important for the updateStatus logic to work correctly
+    downloadNow();
+} else {
+    registerEventHandlers();
+	createPopUpWindowName();
+	if (!isIE6 && !isIE7 && !isIE8) {
+		autoPopUp();
+	}
+	startTimerToCheckAutoPopUp();
+}
+
+//
+// Execution ends here.
+
+// Functions:
+//
+function detectBrowser() {
+    var ua=navigator.userAgent.toLowerCase(); 
+    var msieIndex = ua.indexOf('msie'); 
+    isIE = (msieIndex != -1); 
+    isIE6 = isIE && (ua.indexOf('sv',msieIndex+1) != -1); 
+    if (isIE && !isIE6)
+    {
+        // The User-Agent header contains the IE version as 'MSIE [78].0'
+        // Skip past the string 'MSIE' and compare
+        var uaIEType = ua.substr(msieIndex+4, 4);
+        isIE7 = (uaIEType == ' 7.0');
+        isIE8 = (uaIEType == ' 8.0');
+    }
+}
+
+function determineWindow() {
+    if ( window.name.indexOf('bluecoat_patience') == -1) {
+        inPopUpWindow = false;
+    } else {
+        inPopUpWindow = true;
+    }
+}
+
+function notifyAutoPopUpWorked() {
+    if (inPopUpWindow && window.opener != null) {
+        try { 
+            window.opener.autoPopUpWorked = true;
+        } catch(e) {}
+    }
+}
+
+function unloadHandler(e) {
+    cleanup();
+    return true;
+}
+function registerEventHandlers() {
+    if (isFinalPage) {
+        return;
+    }
+    try { 
+        window.onUnload = unloadHandler;
+    } catch(e) {}
+}
+
+function createPopUpWindowName() {
+    if (isFinalPage) {
+        return;
+    }
+    if (!inPopUpWindow) {
+        // Lets not create a popup window for the same url if it is already created.
+        var bcsiIndex = patienceUrl.indexOf('bcsi_scan');
+        var originalUrl;
+        if (bcsiIndex != -1 && bcsiIndex > 0) {
+            bcsiIndex--; // include the &/? char just before 'bcsi_scan'
+            originalUrl = patienceUrl.substr(0,bcsiIndex);
+        } else {
+            originalUrl = patienceUrl;
+        }
+        windowName = 'bluecoat_patience_'; 
+        windowName = windowName.concat(originalUrl);
+        windowName = windowName.replace(/[^a-zA-Z0-9_]/g, '_');
+    }
+}
+
+function autoPopUp() {
+    if (isFinalPage) {
+        return;
+    }
+    if (!isFirstPage) {
+        return;
+    }
+    if (inPopUpWindow) {
+        return;
+    }
+    if (popHandle != null) {
+        popHandle.close();
+    }
+    popHandle = window.open(patienceUrl, windowName,'height=300,width=800,scrollbars,menubar,location,resizable,status');
+}
+
+function startTimerToCheckAutoPopUp() {
+    if (isFinalPage) {
+        return;
+    }
+    if (inPopUpWindow || popHandle == null || !isFirstPage) {
+        // Definitive cases: popup worked, popup did not work, did not try auto popup (not the first time)
+        continueFromAutoPopUp();
+        return;
+    } 
+    // To work with yahoo kind of toolbars - set needInitialTimer to true
+    var needInitialTimer = true;
+    if (needInitialTimer) {
+        // auto pop up might or might not be blocked
+        refreshIn -= 3;
+        popUpCheckTimerId = setTimeout(continueFromAutoPopUp, 3000);
+    } else {
+        // Assume pop up worked - this will not work with yahoo kind of toolbars 
+        autoPopUpWorked = true; // This will make the continue() call proceed to goBack()
+        continueFromAutoPopUp();
+    }
+}
+
+function continueFromAutoPopUp() {
+    if (isFinalPage) {
+        return;
+    }
+    if (!inPopUpWindow && autoPopUpWorked) {
+        goBack();
+        return;
+    }
+
+    popHandle = null
+    writeUserPopUp(); 
+    refreshTimer();
+}
+
+function refreshTimer() {
+    if (isFinalPage) {
+        return;
+    }
+    if (refreshStopped) {
+        updateStatus('');
+        return;
+    }
+    if (!inPopUpWindow && autoPopUpWorked) {
+        updateStatus('');
+        return;
+    }
+    refreshIn--;
+    if (refreshIn <= 0) {
+        try { 
+            window.location.replace(patienceUrl);
+        } catch(e) { 
+            window.location.href = patienceUrl;
+        }
+        return;
+    }
+    updateStatus(statusMessage + refreshIn);
+    refreshTimerId = setTimeout(refreshTimer, 1000);
+}
+// Execution ends here.
+
+function updateStatus(message) {
+    var prefix1 = isFinalPage ? scanCompletedMessage1 : statusMessagePrefix1;
+    var prefix2 = isFinalPage ? scanCompletedMessage2 : statusMessagePrefix2;
+    var msg1 = ''; 
+    var msg2 = ''; 
+    if (message != '') {
+        msg1 = prefix1 + message; 
+        msg2 = prefix2 + message; 
+    }
+    try { 
+        window.status = msg1;
+        window.defaultStatus = msg1;
+        if (!inPopUpWindow && window != top) { 
+            top.status = msg2;
+            top.defaultStatus = msg2;
+        } 
+        if (!inPopUpWindow && window.opener != null && window.opener != top && window.opener != window) {
+            window.opener.status = msg2;
+            window.opener.defaultStatus = msg2;
+        }
+    } catch(e) {}
+}
+
+function writeUserPopUp() {
+    if (isFinalPage) {
+        return;
+    }
+    if (!inPopUpWindow) {
+        try {
+            document.body.innerHTML = '<br><a href=javascript:userPopUp()>' + 
+                       'Please click here to monitor progress in a separate window.' + 
+                       '</a><br>' + document.body.innerHTML;
+        } catch(e) {}
+    }
+}
+
+function userPopUp() {
+    if (isFinalPage) {
+        return;
+    }
+    if (popHandle != null) {
+        popHandle.close();
+    }
+    cleanup();
+    popHandle = window.open(patienceUrl, windowName,'height=300,width=800,scrollbars,menubar,location,resizable,status');
+    goBack();
+}
+
+function goBack() {
+    if (isFinalPage) {
+        return;
+    }
+    cleanup();
+    stopMe();
+    var empty_length = 1;
+    if (isIE) {
+        empty_length = 0;
+    }
+   	if (window.history.length != empty_length && window.document.referrer != top.document.URL) {
+        // we have non empty history && we are the top
+        window.history.go(-1);
+    }
+}
+
+function cleanup() {
+    if (isFinalPage) {
+        return;
+    }
+    try { 
+        clearTimeout(popUpCheckTimerId);
+    } catch(e) {}
+    try { 
+        clearTimeout(refreshTimerId);
+    } catch(e) {}
+    refreshStopped = true;
+    updateStatus('');
+}
+
+function stopMe() {
+    if (isFinalPage) {
+        return;
+    }
+
+	try { 
+		window.stop();
+	} catch(e) {}
+
+	if (isIE) {
+		try { 
+		   document.execCommand('Stop');
+		} catch(e) { 
+			try { 
+				window.location.replace('');
+			} catch(e) { 
+				window.location.href = '';
+			}
+		}
+	}
+}
+
+function downloadNow() {
+    if (!isFinalPage) {
+        return;
+    }
+    if (inPopUpWindow) {
+		if (window.opener != null) {
+			window.opener.location.href = downloadUrl;
+		}
+		window.close();
+    } else {
+        try { 
+            window.location.replace(downloadUrl);
+        } catch(e) { 
+            window.location.href = downloadUrl;
+        }
+    }
+}
+
+
+  </script>
+  <font face="Helvetica">
+    <big><strong></strong></big><BR>
+  </font>
+  <blockquote>
+  <table border=0 cellPadding=1 width="80%">
+  <tr><td>
+  <font face="Helvetica">
+    <big>Votre requête est analysée pour des raisons de sécurité. Merci de patienter.
+</big><br>
+    <br>
+  </font>
+  </td></tr>
+  <tr><td>
+    <font face="Helvetica">
+      <table cellpadding="2" cellspacing="2" border="0" align="center">
+<tbody>
+  <tr>
+    <td valign="top" width="30%">URL:</td>
+    <td valign="top">http://pdftotext.com/download/vwlkrkudry56g18z/o_1alrs6vivi0r1sqjulauedj5ra/sts_20140005_0002_p000.txt?rnd=0.734125451729009</td>
+  </tr>
+  <tr>
+    <td valign="top" width="30%">Progression:</td>
+    <td valign="top">29 KB</td>
+  </tr>
+  <tr>
+    <td valign="top" width="30%">Time écoulé:</td>
+    <td valign="top">3</td>
+  </tr>
+</tbody>
+</table>
+
+    </font>
+  </td></tr>
+  <tr><td>
+    <font face="Helvetica">
+      Si votre navigateur ne supporte par le rafraichissement automatique, cliquez sur le lien suivant pour télécharger l'objet analysé.
+<a href="http://pdftotext.com/download/vwlkrkudry56g18z/o_1alrs6vivi0r1sqjulauedj5ra/sts_20140005_0002_p000.txt?rnd=0.734125451729009&amp;bcsi_scan_43167910db6ab4d9=cYZ++AmM9o53LdygLxRu8wuVPD8/AAAAwjC+Rw==:1">Continuer</a>
+<p><strong>Note:</strong> Fermer cette fenêtre terminera le téléchargement.</p>
+
+    </font>
+  </td></tr>
+  <tr><td>
+    <font face="Helvetica" SIZE=2>
+      <br>
+      
+    </font>
+  </td></tr>
+  </table>
+  </blockquote>
+</body></html>
