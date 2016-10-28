@@ -13,7 +13,7 @@ A list is available on [Google Scholar](https://scholar.google.com/citations?use
 
 ## MD thesis
 
-My [MD thesis](https://hal.archives-ouvertes.fr/tel-01290402), *An analysis of paediatric cancer patient volume and pathway of care from French hospital claim databases*.
+My [MD thesis](https://hal.archives-ouvertes.fr/tel-01290402), *An Analysis of Paediatric Cancer Patient Volume and Pathway of Care from French Hospital Claim Databases*.
 
 ## Other reports
 
