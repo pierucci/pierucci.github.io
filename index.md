@@ -10,7 +10,7 @@ title: Antoine Filipović-Pierucci
 Je suis un médecin spécialisé en Santé publique. Je travaille sur les questions d'étude et d'évaluation des systèmes de santé par des méthodes d'analyse quantitatives (épidémiologiques, médico-économiques, analyse des parcours de soins, analyse spatiale...).
 Je m'intéresse en particulier à l'analyse des bases de données médico-administratives pour répondre à des questions de Santé publique.
 
-Ce site contient [mon CV](/fr/cv), les [outils informatiques](/fr/tools) auxquels je contribue et [mes publications](/fr/papers). Je travaille à [l'unité](http://www.urc-eco.fr) de recherche clinique en économie de la santé d'Île-de-France.
+Ce site contient [mon CV](/fr/cv), les [outils informatiques](/en/tools) auxquels je contribue et [mes publications](/en/papers). Je travaille à [l'unité](http://www.urc-eco.fr) de recherche clinique en économie de la santé d'Île-de-France.
 
 ## Public Health Medical Doctor
 
