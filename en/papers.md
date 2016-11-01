@@ -55,7 +55,7 @@ Présentation à la réunion de la SFCE des 16, 17 et 18 mars 2016 : *Volumes d�
 
 Filipovic-Pierucci A., Zarca K., Durand-Zaleski I.
 *Markov Models for Health Economic Evaluation Modelling in R with the heemod Package*.
-ISPOR 19th Annual European Congress
+[ISPOR 19th Annual European Congress](http://www.ispor.org/ScientificPresentationsDatabase/Presentation/68456)
 
 Butel T., Nicolian S., Durand M., Filipovic-Pierucci A., Kone M., Gambotti L., Mallet A., Durand-Zaleski I., Dommergues M.
 *Cost-Effectiveness of Acupuncture Versus Standard Care for Pelvic and Low Back Pain in Pregnancy: An Analysis of the Game Randomized Trial*.
