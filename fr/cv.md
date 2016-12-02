@@ -5,7 +5,7 @@ title: AFP - CV
 
 # Curriculum vitae
 
-Je suis médecin de santé publique dans [l'unité](http://www.urc-eco.fr/) de
+Médecin de santé publique dans [l'unité](http://www.urc-eco.fr/) de
 recherche clinique en économie de la santé d'Île-de-France du
 Professeur [Isabelle Durand-Zaleski](http://www.urc-eco.fr/Isabelle-DURAND-ZALESKI,6).
 Je travaille sur l'évaluation médico-économique de dispositifs médicaux et de modes de prise en charges innovants.
@@ -19,7 +19,7 @@ méthodologie et statistiques en recherche biomédicale du Professeur Bruno Fali
   
 ## Internat
 
-Mon internat de 4 (2011-2015) ans s'est divisé en plusieurs phases :
+Mon internat de 4 (2011-2015) ans s'est divisé en 3 phases :
 
 Une première phase d'apprentissage des fondations : la méthodologie, 
 la recherche clinique et épidémiologique dans des unités de
