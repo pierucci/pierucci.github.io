@@ -3,9 +3,9 @@ layout: default
 title: AFP - Publications
 ---
 
-# Publication list
+# Publications
 
-## Indexed publication
+## Indexed publications
 
 A list is available on [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ). Full text is available for some of my paywalled articles:
 
