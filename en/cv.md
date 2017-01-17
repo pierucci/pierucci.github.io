@@ -5,7 +5,7 @@ title: AFP - CV
 
 # Curriculum vitae
 
-I am an MD with a specialization in public health. I work at Pr. [Isabelle Durand-Zaleski](http://www.urc-eco.fr/Isabelle-DURAND-ZALESKI,6)'s research unit [URC-Eco](http://www.urc-eco.fr) in Paris were my job is to do health economic evaluation of drugs, medical devices, or innovative heathcare organisations.
+I am an MD with a specialization in public health. I work at [Pr. Isabelle Durand-Zaleski](http://www.urc-eco.fr/Isabelle-DURAND-ZALESKI,6)'s research unit [URC-Eco](http://www.urc-eco.fr) in Paris where I do health economic evaluation of drugs, medical devices, or innovative heathcare organisations.
 
 ## Education
 
