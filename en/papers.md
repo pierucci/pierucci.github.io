@@ -7,9 +7,9 @@ title: AFP - Publications
 
 ## Indexed publications
 
-A list is available on [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ). Full text is available for some of my paywalled articles:
+A list is available on [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ).
 
-[Quantifiable evaluation of cerebellar signs in children](https://pierucci.github.io/fulltext/neuro).
+Full text is available for some of my paywalled articles: [Quantifiable evaluation of cerebellar signs in children](https://pierucci.github.io/fulltext/neuro).
 
 ## MD thesis
 
