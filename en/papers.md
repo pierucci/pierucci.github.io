@@ -9,6 +9,26 @@ title: AFP - Publications
 
 A list is available on [Google Scholar](https://scholar.google.com/citations?user=F-6yCr0AAAAJ).
 
+<!---
+cat((
+  scholar::get_publications("F-6yCr0AAAAJ") %>% 
+    dplyr::filter(! is.na(cid)) %>% 
+    dplyr::arrange(desc(year), desc(cites)) %>% 
+    dplyr::mutate(
+      author = gsub("\\.{3}", "et al", author),
+      res = paste0(
+        author, ". *",
+        title, ".* ",
+        number, " ",
+        journal, ", ",
+        year, "."
+      )
+    ))$res,
+  sep = "\n\n")
+-->
+
+A Filipovic-Pierucci, S Samson, JP Fagot, A Fagot-Campagna. *Estimating the prevalence of depression associated with healthcare use in France using administrative databases.* 17 (1), 1 BMC Psychiatry, 2017.
+
 A Marzouk, A Filipovic-Pierucci, O Baud, V Tsatsaris, A Ego, MA Charles, et al. *Prenatal and post-natal cost of small for gestational age infants: a national study.* 17 (1), 221 BMC Health Services Research, 2017.
 
 A Filipović-Pierucci, K Zarca, I Durand-Zaleski. *Markov Models for Health Economic Evaluation: The R Package heemod.* :1702.03252 arXiv preprint arXiv:, 2017.
