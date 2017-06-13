@@ -13,25 +13,11 @@ A Marzouk, A Filipovic-Pierucci, O Baud, V Tsatsaris, A Ego, MA Charles, et al. 
 
 A Filipović-Pierucci, K Zarca, I Durand-Zaleski. *Markov Models for Health Economic Evaluation: The R Package heemod.* :1702.03252 arXiv preprint arXiv:, 2017.
 
-A Filipovic-Pierucci, C Le Cossec, T Butel, B Falissard, I Durand-Zaleski. *Pourquoi les p-values ne sont pas utilisées en évaluation médico-économique.* 65, S78 Revue d'Épidémiologie et de Santé Publique, 2017.
-
-A Filipovic-Pierucci, L Jovic, I Durand-Zaleski. *Évolution des pratiques en chimiothérapie orale de 2011 à 2014: une étude à partir du Sniiram en Île–de–France.* 65, S32 Revue d'Épidémiologie et de Santé Publique, 2017.
-
-A Filipovic-Pierucci, I Durand-Zaleski. *Analyse des extractions Sniiram: description d’un système informatique adapté pour les unités de recherche.* 65, S32 Revue d'Épidémiologie et de Santé Publique, 2017.
-
-A Filipovic-Pierucci, S Samson, JP Fagot, A Fagot-Campagna. *Estimating the prevalence of depression associated with healthcare use in France using administrative databases.* 17 (1), 1 BMC Psychiatry, 2017.
-
 A Filipovic-Pierucci, A Rigault, A Fagot-Campagna, P Tuppin. *Health status of populations living in French overseas territories in 2012, compared with metropolitan France: An analysis of the national health insurance database.* 64 (3), 175-183 Revue d'epidemiologie et de sante publique, 2016.
-
-T Butel, S Nicolian, M Durand, A Filipovic-Pierucci, M Kone, L Gambotti, et al. *Cost-Effectiveness of Acupuncture Versus Standard Care For Pelvic And Low Back Pain In Pregnancy: An Analysis of The Game Randomized Trial.* 19 (7), A588-A589 Value in Health, 2016.
-
-AF Pierucci, F Pessione, C Deneux-Tharaux, G Plu-Bureau, V Olié. *Maladie veineuse thrombo-embolique et stimulation ovarienne, 2012–2014, France.* 64, S9 Revue d'Épidémiologie et de Santé Publique, 2016.
 
 M Darlington, P Gueret, JP Laissy, AF Pierucci, H Maoulida, C Quelen, et al. *Cost-effectiveness of computed tomography coronary angiography versus conventional invasive coronary angiography.* 16 (6), 647-655 The European Journal of Health Economics, 2015.
 
 AF Pierucci, C Mariotti, M Panzeri, P Giunti, S Boesch, JB Schulz, et al. *Quantifiable evaluation of cerebellar signs in children.* 84 (12), 1225-1232 Neurology, 2015.
-
-A Filipovic-Pierucci. *Volumes d’activité et parcours de soin en cancérologie pédiatrique en France: analyse des données du programme de médicalisation des systèmes d’information.*  Université Paris-Est Créteil Val-de-Marne, 2015.
 
 C Choleau, J Maitre, AF Pierucci, C Elie, P Barat, AM Bertrand, et al. *Ketoacidosis at diagnosis of type 1 diabetes in French children and adolescents.* 40 (2), 137-142 Diabetes & metabolism, 2014.
 
